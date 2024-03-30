@@ -8,27 +8,27 @@ const Footer = () => {
       <div className="w-full flex flex-row items-start justify-between">
         <div className="w-1/3 text-white">
           <h5 className="text-xl font-semibold mb-4">Tentang Kami</h5>
-          <a href="">Jl. Gunung Kidul No.87, Mojokerto, Jawa Timur</a>
+          <a href="#">Jl. Gunung Kidul No.87, Mojokerto, Jawa Timur</a>
           <br />
-          <a href="">Office : (0321)456789013</a>
+          <a href="#">Office : (0321)456789013</a>
           <br />
-          <a href="">Saeful : 098765432123</a>
+          <a href="#">Saeful : 098765432123</a>
         </div>
         <div className="w-1/3 text-white">
           <h5 className="text-xl font-semibold mb-4">Sosial Media Kami</h5>
-          <a href="">Instagram</a>
+          <a href="#">Instagram</a>
           <br />
-          <a href="">Facebook</a>
+          <a href="#">Facebook</a>
           <br />
-          <a href="">Tiktok</a>
+          <a href="#">Tiktok</a>
         </div>
         <div className="w-1/3 text-white">
           <h5 className="text-xl font-semibold mb-4">Sosial Media Kami</h5>
-          <a href="">Instagram</a>
+          <a href="#">Instagram</a>
           <br />
-          <a href="">Facebook</a>
+          <a href="#">Facebook</a>
           <br />
-          <a href="">Tiktok</a>
+          <a href="#">Tiktok</a>
         </div>
       </div>
       <hr className="w-full bg-gray-300" />

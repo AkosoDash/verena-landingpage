@@ -1,11 +1,11 @@
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center justify-between w-full min-h-screen bg-white px-80 pt-28 gap-y-12">
+    <div className="flex flex-col items-center justify-between w-full min-h-screen bg-white px-4 md:px-20 xl:px-80 pt-28 gap-y-12">
       <div>
-        <h1 className="font-bold text-5xl text-center">
+        <h1 className="font-bold text-3xl lg:text-5xl text-center">
           Sewa Bus dan Travel Terpercaya
         </h1>
-        <h2 className="font-bold text-4xl text-center">
+        <h2 className="font-bold text-2xl lg:text-4xl text-center">
           Murah juga Berkualitas
         </h2>
       </div>

@@ -5,8 +5,8 @@ const Footer = () => {
         Logo
       </div>
       <hr className="w-full bg-gray-300" />
-      <div className="w-full flex flex-row items-start justify-between">
-        <div className="w-1/3 text-white">
+      <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-y-8 items-start justify-between">
+        <div className=" text-white">
           <h5 className="text-xl font-semibold mb-4">Tentang Kami</h5>
           <a href="#">Jl. Gunung Kidul No.87, Mojokerto, Jawa Timur</a>
           <br />
@@ -14,7 +14,7 @@ const Footer = () => {
           <br />
           <a href="#">Saeful : 098765432123</a>
         </div>
-        <div className="w-1/3 text-white">
+        <div className=" text-white">
           <h5 className="text-xl font-semibold mb-4">Sosial Media Kami</h5>
           <a href="#">Instagram</a>
           <br />
@@ -22,7 +22,7 @@ const Footer = () => {
           <br />
           <a href="#">Tiktok</a>
         </div>
-        <div className="w-1/3 text-white">
+        <div className=" text-white">
           <h5 className="text-xl font-semibold mb-4">Sosial Media Kami</h5>
           <a href="#">Instagram</a>
           <br />

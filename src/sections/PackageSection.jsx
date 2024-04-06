@@ -1,9 +1,9 @@
 const PackageSection = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-300 flex flex-col items-center justify-start gap-y-20">
-      <h1 className="text-5xl font-bold">Paket Verena</h1>
-      <div className="flex flex-row items-center justify-start gap-x-4">
-        <div className="h-[480px] w-[560px] rounded-xl bg-white flex flex-col items-center justify-start gap-y-4 pb-5">
+    <div className="w-full min-h-screen bg-gray-300 flex flex-col items-center justify-start gap-y-20 px-8 md:px-20 lg:px-40 py-12">
+      <h1 className="text-3xl md:text-5xl font-bold">Paket Verena</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-start gap-4">
+        <div className="h-[480px] rounded-xl bg-white flex flex-col items-center justify-start gap-y-4 pb-5">
           <div className="w-full h-64 rounded-xl bg-gray-500"></div>
           <div className="flex flex-row items-center justify-center gap-x-4">
             <div className="h-12 w-12 bg-gray-500 rounded-full"></div>
@@ -20,7 +20,7 @@ const PackageSection = () => {
             Hubungi Kami
           </a>
         </div>
-        <div className="h-[480px] w-[560px] rounded-xl bg-white flex flex-col items-center justify-start gap-y-4 pb-5">
+        <div className="h-[480px] rounded-xl bg-white flex flex-col items-center justify-start gap-y-4 pb-5">
           <div className="w-full h-64 rounded-xl bg-gray-500"></div>
           <div className="flex flex-row items-center justify-center gap-x-4">
             <div className="h-12 w-12 bg-gray-500 rounded-full"></div>

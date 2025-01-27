@@ -1,44 +1,117 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+
 const Navbar = () => {
+  const [scrollYPosition, setScrollYPosition] = useState(0);
   const [showMobileNavbar, setShowMobileNavbar] = useState(false);
+
+  window.addEventListener("scroll", function () {
+    setScrollYPosition(window.scrollY);
+  });
+
   return (
-    <div className="fixed top-0 flex flex-row items-center justify-between w-full h-20 border border-b-[3px] bg-white border-black/25 px-20">
-      <a
-        className="w-56 h-12 bg-black text-white text-center flex items-center justify-center rounded-lg"
-        href="#"
+    <>
+      <div
+        className={`fixed top-0 flex flex-row items-center justify-between w-full h-20 border border-b-[3px] border-black/25 px-8 sm:px-20 z-50 ${
+          scrollYPosition < 300
+            ? "bg-white transition-colors duration-75"
+            : "bg-primary transition-colors duration-75"
+        }`}
       >
-        Logo
-      </a>
-      <div className="hidden lg:flex flex-row justify-center items-center gap-x-8">
-        <a href="#" className="text-gray-800 font-semibold">
+        <a
+          className="w-40 h-8 flex items-center justify-center rounded-lg p-2"
+          href="/"
+        >
+          <img
+            src={
+              scrollYPosition < 300
+                ? "/assets/logos/logo-with-text.png"
+                : "/assets/logos/white-logo-with-text.png"
+            }
+            alt="logo"
+          />
+        </a>
+        <div
+          className={`hidden lg:flex flex-row justify-center items-center gap-x-8  ${
+            scrollYPosition < 300 ? "text-gray-800" : "text-white"
+          }`}
+        >
+          <a href="#service" className="font-semibold">
+            Layanan
+          </a>
+          <a href="#armada" className="font-semibold">
+            Armada
+          </a>
+          <a href="#testimoni" className="font-semibold">
+            Testimoni
+          </a>
+          <a href="#gallery" className="font-semibold">
+            Galeri
+          </a>
+        </div>
+        <a
+          href="#contact"
+          className="hidden lg:block bg-tertiary px-4 py-2 font-semibold text-white rounded-[8px]"
+        >
+          Kontak Kami
+        </a>
+
+        <button
+          className="block lg:hidden font-bold text-white rounded-[8px]"
+          onClick={() => setShowMobileNavbar(!showMobileNavbar)}
+        >
+          <FontAwesomeIcon
+            icon={showMobileNavbar ? faTimes : faBars}
+            size="lg"
+            color={scrollYPosition < 300 ? "#000000" : "#FFFFFF"}
+          />
+        </button>
+      </div>
+
+      {/* Navbar Mobile */}
+      <div
+        className={`${
+          showMobileNavbar ? "flex " : "hidden opacity-0"
+        } lg:hidden flex-col justify-start items-center p-8 gap-y-4 fixed top-20 w-full h-full bg-white text-black transition-opacity duration-300 z-50`}
+      >
+        <a
+          href="#service"
+          onClick={() => setShowMobileNavbar(false)}
+          className="font-semibold py-8 hover:bg-[#0F62FE]/20 hover:text-[#0F62FE]  w-full text-center rounded-lg transition duration-300"
+        >
           Layanan
         </a>
-        <a href="#" className="text-gray-800 font-semibold">
+        <a
+          href="#armada"
+          onClick={() => setShowMobileNavbar(false)}
+          className="font-semibold py-8 hover:bg-[#0F62FE]/20 hover:text-[#0F62FE]  w-full text-center rounded-lg transition duration-300"
+        >
           Armada
         </a>
-        <a href="#" className="text-gray-800 font-semibold">
+        <a
+          href="#testimoni"
+          onClick={() => setShowMobileNavbar(false)}
+          className="font-semibold py-8 hover:bg-[#0F62FE]/20 hover:text-[#0F62FE]  w-full text-center rounded-lg transition duration-300"
+        >
           Testimoni
         </a>
-        <a href="#" className="text-gray-800 font-semibold">
+        <a
+          href="#gallery"
+          onClick={() => setShowMobileNavbar(false)}
+          className="font-semibold py-8 hover:bg-[#0F62FE]/20 hover:text-[#0F62FE]  w-full text-center rounded-lg transition duration-300"
+        >
           Galeri
         </a>
+        <a
+          href="#contact"
+          onClick={() => setShowMobileNavbar(false)}
+          className=" bg-[#0F62FE] w-full text-center py-8 font-bold text-white rounded-[8px]"
+        >
+          Kontak Kami
+        </a>
       </div>
-      <a
-        href="#"
-        className="hidden lg:block bg-[#0F62FE] px-8 py-4 font-bold text-white rounded-[8px]"
-      >
-        Kontak Kami
-      </a>
-      <button
-        className="block lg:hidden bg-[#0F62FE] px-8 py-4 font-bold text-white rounded-[8px]"
-        onClick={() => {
-          setShowMobileNavbar(!showMobileNavbar);
-        }}
-      >
-        <FontAwesomeIcon size="1x" color="#ffffff" icon={"list"} />
-      </button>
-    </div>
+    </>
   );
 };
 

@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "title": "Invoker",
+      "images": [
+        "/assets/galleries/invoker-1.jpeg",
+        "/assets/galleries/invoker-2.jpeg",
+        "/assets/galleries/invoker-3.jpeg",
+        "/assets/galleries/invoker-4.jpeg",
+        "/assets/galleries/invoker-5.jpeg",
+        "/assets/galleries/invoker-6.jpeg"
+      ]
+    },
+    {
+      "title": "Leshrac",
+      "images": [
+        "/assets/galleries/lesrac-1.jpeg",
+        "/assets/galleries/lesrac-2.jpeg",
+        "/assets/galleries/lesrac-3.jpeg",
+        "/assets/galleries/lesrac-4.jpeg",
+        "/assets/galleries/lesrac-5.jpeg",
+        "/assets/galleries/lesrac-6.jpeg",
+        "/assets/galleries/lesrac-7.jpeg",
+        "/assets/galleries/lesrac-8.jpeg"
+      ]
+    },
+    {
+      "title": "Oracle",
+      "images": [
+        "/assets/galleries/oracle-1.jpeg",
+        "/assets/galleries/oracle-2.jpeg",
+        "/assets/galleries/oracle-3.jpeg",
+        "/assets/galleries/oracle-4.jpeg",
+        "/assets/galleries/oracle-5.jpeg",
+        "/assets/galleries/oracle-6.jpeg",
+        "/assets/galleries/oracle-7.jpeg"
+      ]
+    },
+    {
+      "title": "Thinker",
+      "images": [
+        "/assets/galleries/thinker-1.jpeg",
+        "/assets/galleries/thinker-2.jpeg",
+        "/assets/galleries/thinker-3.jpeg",
+        "/assets/galleries/thinker-4.jpeg",
+        "/assets/galleries/thinker-5.jpeg",
+        "/assets/galleries/thinker-6.jpeg",
+        "/assets/galleries/thinker-7.jpeg",
+        "/assets/galleries/thinker-8.jpeg"
+      ]
+    },
+    {
+      "title": "Dazzle",
+      "images": [
+        "/assets/galleries/dazzle-1.jpeg",
+        "/assets/galleries/dazzle-2.jpeg",
+        "/assets/galleries/dazzle-3.jpeg",
+        "/assets/galleries/dazzle-4.jpeg",
+        "/assets/galleries/dazzle-5.jpeg",
+        "/assets/galleries/dazzle-6.jpeg"
+      ]
+    }
+  ]
+}

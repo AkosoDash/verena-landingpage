@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import HeroSection from "./HeroSection";
 import ServiceSection from "./ServiceSection";
+import VerifiedSection from "./VerifiedSection";
 import PackageSection from "./PackageSection";
 import ArmadaSection from "./ArmadaSection";
 import TestimoniSection from "./TestimoniSection";
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <ServiceSection />
+      <VerifiedSection />
       <PackageSection />
       <ArmadaSection />
       <TestimoniSection />

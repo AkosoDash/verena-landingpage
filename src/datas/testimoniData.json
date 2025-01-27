@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "imageUrl": "/assets/testimonials/testimoni-1.jpg",
+      "name": "Rombongan Jamaah Khatmil Quran",
+      "testimoni": "Perjalanan nyaman, bis bersih dan modern, pelayanan ramah. Sangat profesional, pasti akan menggunakan lagi"
+    },
+    {
+      "imageUrl": "/assets/testimonials/testimoni-2.jpg",
+      "name": "Guru SMPN 1 Sooko",
+      "testimoni": "Pengalaman study tour yang luar biasa! Bis nyaman, anak-anak senang, pelayanan memuaskan!"
+    },
+    {
+      "imageUrl": "/assets/testimonials/testimoni-3.jpg",
+      "name": "Alexandro Sartono",
+      "testimoni": "Layanan travel terbaik! Bis nyaman, driver profesional, selalu tepat waktu. Sangat direkomendasikan!"
+    }
+  ]
+}

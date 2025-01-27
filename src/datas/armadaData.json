@@ -1,0 +1,39 @@
+{
+  "datas": [
+    {
+      "name": "Invoker",
+      "imgSource": "/assets/armadas/armada-1.jpeg",
+      "facilitiesData": [true, true, true, true, true, true, false, false]
+    },
+    {
+      "name": "Leshrac",
+      "imgSource": "/assets/armadas/armada-2.jpeg",
+      "facilitiesData": [true, true, true, true, true, true, false, false]
+    },
+    {
+      "name": "Oracle",
+      "imgSource": "/assets/armadas/armada-3.jpeg",
+      "facilitiesData": [true, true, true, true, true, true, false, false]
+    },
+    {
+      "name": "Thinker",
+      "imgSource": "/assets/armadas/armada-4.jpeg",
+      "facilitiesData": [true, true, true, true, true, true, false, true]
+    },
+    {
+      "name": "Dazzle",
+      "imgSource": "/assets/armadas/armada-5.jpeg",
+      "facilitiesData": [true, true, true, true, true, false, true, false]
+    }
+  ],
+  "facilitiesData": [
+    { "title": "AC" },
+    { "title": "Karaoke" },
+    { "title": "Smart TV (Android)" },
+    { "title": "Crew Berpengalaman" },
+    { "title": "Bantal & Selimut" },
+    { "title": "Seat 2-3 (59 kursi) dan Seat 2-2 (49 kursi)" },
+    { "title": "Seat 2-2 (35 kursi)" },
+    { "title": "Dispenser (Free Kopi & Teh)" }
+  ]
+}

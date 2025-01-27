@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "title": "Study Tour",
+      "image": "/assets/packages/wisata.jpg",
+      "description": "Jelajahi pengetahuan sambil berwisata! Paket ini dirancang untuk memberikan pengalaman edukatif yang mendalam, mengunjungi institusi pendidikan, museum, dan tempat-tempat bersejarah yang kaya akan ilmu pengetahuan."
+    },
+    {
+      "title": "Ziarah",
+      "image": "/assets/packages/religi.jpg",
+      "description": "Rasakan ketenangan jiwa dengan perjalanan spiritual yang khusyuk. Paket ini mengantarkan Anda ke tempat-tempat suci dan bersejarah, ideal untuk memperdalam iman dan mengenang jejak para pendahulu."
+    },
+    {
+      "title": "Wisata",
+      "image": "/assets/packages/wisata.jpg",
+      "description": "Nikmati liburan yang menyenangkan dengan pilihan destinasi terbaik! Paket ini menawarkan pengalaman berwisata yang santai dan penuh petualangan, mulai dari keindahan alam, tempat-tempat ikonik, hingga kuliner khas daerah."
+    },
+    {
+      "title": "Kunjungan",
+      "image": "/assets/packages/kunjungan.jpg",
+      "description": "Sesuaikan kebutuhan kunjungan bisnis atau studi Anda dengan paket ini. Kami menawarkan perjalanan yang terorganisir untuk berbagai keperluan resmi, baik itu kunjungan industri, instansi pemerintahan, maupun lembaga riset."
+    }
+  ]
+}

@@ -35,7 +35,7 @@ const CompanyProfileSection = () => {
           <div className="h-12 w-12 bg-white/50 rounded-full flex items-center justify-center">
             <DirectionsBusFilled fontSize="large" htmlColor="#FFFFFF" />
           </div>
-          <h4 className="mb-0 mt-4 text-xl font-bold text-white">4</h4>
+          <h4 className="mb-0 mt-4 text-xl font-bold text-white">5</h4>
           <p className="text-md text-white">Armada</p>
         </div>
         <div className=" flex flex-col items-center justify-center p-4 rounded-lg bg-primary shadow-2xl">

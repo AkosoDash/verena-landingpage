@@ -14,6 +14,21 @@
       "imageUrl": "/assets/testimonials/testimoni-3.jpg",
       "name": "Alexandro Sartono",
       "testimoni": "Layanan travel terbaik! Bis nyaman, driver profesional, selalu tepat waktu. Sangat direkomendasikan!"
+    },
+    {
+      "imageUrl": "/assets/testimonials/testimoni-4.jpg",
+      "name": "Rombongan Penumpang Mojosari",
+      "testimoni": "Sangat puas dengan pelayanan kru, bus bersih, nyaman, dan mantap!"
+    },
+    {
+      "imageUrl": "/assets/testimonials/testimoni-5.jpg",
+      "name": "Rombongan Penumpang Sidoarjo",
+      "testimoni": "Bus sangat nyaman dan perjalanan lancar tanpa hambatan"
+    },
+    {
+      "imageUrl": "/assets/testimonials/testimoni-6.jpg",
+      "name": "Rombongan Penumpang Mojoanyar",
+      "testimoni": "Busnya nyaman dan bersih, AC dingin, kursinya empuk, dan perjalanan nyaman."
     }
   ]
 }

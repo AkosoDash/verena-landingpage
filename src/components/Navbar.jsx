@@ -13,32 +13,32 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`fixed top-0 flex flex-row items-center justify-between w-full h-20 border border-b-[3px] border-black/25 px-8 sm:px-20 z-50 ${
+        className={`fixed top-0 flex flex-row items-center justify-between w-full h-20 border border-b-[3px] px-8 sm:px-20 z-50 ${
           scrollYPosition < 300
-            ? "bg-white transition-colors duration-75"
-            : "bg-primary transition-colors duration-75"
+            ? "bg-transparent transition-colors duration-75 border-black/0"
+            : "bg-primary transition-colors duration-75 border-black/25"
         }`}
       >
         <a
-          className="w-40 h-8 flex items-center justify-center rounded-lg p-2"
+          className="w-40 h-16 flex items-center justify-center rounded-lg p-2"
           href="/"
         >
           <img
             src={
-              scrollYPosition < 300
-                ? "/assets/logos/logo-with-text.png"
-                : "/assets/logos/white-logo-with-text.png"
+              "/assets/logos/white-logo-with-text.png"
+              // scrollYPosition < 300
+              //   ? "/assets/logos/logo-with-text.png"
             }
             alt="logo"
           />
         </a>
         <div
           className={`hidden lg:flex flex-row justify-center items-center gap-x-8  ${
-            scrollYPosition < 300 ? "text-gray-800" : "text-white"
+            scrollYPosition < 300 ? "text-white" : "text-white"
           }`}
         >
-          <a href="#service" className="font-semibold">
-            Layanan
+          <a href="#company-profile" className="font-semibold">
+            Profil Perusahaan
           </a>
           <a href="#armada" className="font-semibold">
             Armada

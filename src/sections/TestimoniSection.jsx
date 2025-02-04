@@ -27,9 +27,12 @@ const TestimoniSection = () => {
       className="w-full min-h-screen bg-primary/10 p-4 sm:p-20 flex flex-col items-center justify-start gap-y-16"
       id="testimoni"
     >
-      <h1 className="text-3xl sm:text-5xl font-bold text-center text-primary underline">
-        Testimoni Pelanggan Kami
-      </h1>
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-primary">
+          Testimoni Pelanggan Kami
+        </h2>
+        <hr className="w-1/3 h-2 bg-tertiary rounded-xl mt-2 md:mt-4" />
+      </div>
       <Carousel
         className="w-full h-auto z-10 px-4"
         responsive={responsive}

@@ -28,9 +28,12 @@ const PackageSection = () => {
       className="w-full min-h-screen bg-primary/10 flex flex-col items-center justify-start gap-y-8 px-8 md:px-20 lg:px-40 py-12"
       id="package"
     >
-      <h1 className="text-3xl md:text-5xl font-bold text-primary underline">
-        Apa Saja Paketnya?
-      </h1>
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-primary">
+          Apa Saja Paketnya?
+        </h2>
+        <hr className="w-1/3 h-2 bg-tertiary rounded-xl mt-2 md:mt-4" />
+      </div>
       <Carousel
         className="w-full h-auto z-10"
         responsive={responsive}

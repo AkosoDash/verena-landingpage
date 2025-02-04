@@ -27,9 +27,12 @@ const GallerySection = () => {
       className="w-full min-h-screen bg-white flex flex-col items-center justify-start gap-y-0 px-4 md:px-20 lg:px-30 py-24"
       id="gallery"
     >
-      <h1 className="text-3xl md:text-5xl font-bold text-center text-primary underline mb-8">
-        Galeri Armada Kami
-      </h1>
+      <div className="flex flex-col items-center justify-center mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-primary">
+          Galeri Armada Kami
+        </h2>
+        <hr className="w-1/3 h-2 bg-tertiary rounded-xl mt-2 md:mt-4" />
+      </div>
       {galleriesData.data.map((data, index) => (
         <div
           key={index}

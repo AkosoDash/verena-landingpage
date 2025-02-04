@@ -32,41 +32,45 @@ const HeroSection = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-end w-full min-h-screen bg-gradient-to-t from-white to-blue-200 bg-cover px-4 md:px-20 xl:px-80 pt-28 gap-y-12 relative overflow-x-hidden"
+      className="flex flex-col items-center justify-center w-full min-h-screen bg-cover px-4 md:px-20 xl:px-80 pt-28 gap-y-12 relative overflow-x-hidden"
       id="hero"
     >
-      <img
-        className="absolute bottom-0 z-10 -left-48"
-        alt="awikwok"
-        src="/assets/background/1.png"
-      />
-      <img
-        className="absolute bottom-0 z-10 -right-48 scale-x-[-1]"
-        alt="awikwok"
-        src="/assets/background/1.png"
-      />
-      <h1 className="font-bold text-3xl lg:text-5xl text-center text-primary underline">
-        Travel With Passion
-      </h1>
-      <div className="h-auto w-11/12 border-4 border-b-0 border-primary rounded-t-xl">
+      {/* Background Carousel */}
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
         <Carousel
           responsive={responsive}
-          className="h-full md:h-[480px] w-full bg-white rounded-t-lg z-20"
+          className="w-full h-full object-cover"
+          autoPlay
+          autoPlaySpeed={5000}
+          infinite
+          removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
         >
           {armadas.map((data, key) => (
             <div
-              className="h-full w-full bg-gray-800 flex justify-center items-center overflow-hidden"
+              className="w-full h-full flex justify-center items-center overflow-hidden"
               key={key}
             >
-              <img
-                src={data}
-                alt=""
-                className="max-h-full max-w-full object-cover"
-              />
+              <img src={data} alt="" className="w-full h-screen object-cover" />
             </div>
           ))}
         </Carousel>
+
+        {/* Optional: Background Overlay */}
+        <div className="absolute inset-0 bg-black/70"></div>
       </div>
+
+      {/* Content */}
+      <h1 className="relative z-10 font-bold text-3xl lg:text-5xl text-center text-white">
+        Nikmati Wisata Tanpa Batas dengan Armada Terbaik!
+      </h1>
+      <a
+        href="https://wa.me/6281260050010"
+        target="_blank"
+        rel="noreferrer"
+        className="relative z-10 bg-tertiary px-8 py-4 font-semibold text-white rounded-[8px]"
+      >
+        Pesan Sekarang!
+      </a>
     </div>
   );
 };

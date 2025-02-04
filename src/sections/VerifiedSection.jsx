@@ -6,9 +6,12 @@ const VerifiedSection = () => {
       className="w-full bg-white px-8 md:px-20 lg:px-40 py-20 flex flex-col items-center justify-center gap-y-12"
       id="service"
     >
-      <h2 className="text-3xl md:text-5xl font-bold text-primary underline">
-        Sertifikasi Kami Lengkap Lo!
-      </h2>
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-primary">
+          Sertifikasi Kami Lengkap Lo!
+        </h2>
+        <hr className="w-1/3 h-2 bg-tertiary rounded-xl mt-2 md:mt-4" />
+      </div>
       <p className="text-lg text-center text-primary">
         Sertifikasi bukan hanya sebagai tanda kelengkapan berkendara, tapi juga
         membuktikan bahwa kami adalah travel yang amanah dan terpercaya. Kami

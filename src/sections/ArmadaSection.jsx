@@ -26,9 +26,12 @@ const ArmadaSection = () => {
       className="w-full min-h-screen bg-white flex flex-col items-center justify-start gap-y-16 px-8 md:px-20 lg:px-40 py-12"
       id="armada"
     >
-      <h1 className="text-3xl sm:text-5xl font-bold text-center text-primary underline">
-        ini Dia, Armada Kami!
-      </h1>
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-primary">
+          Ini Dia, Armada Kami!
+        </h2>
+        <hr className="w-1/3 h-2 bg-tertiary rounded-xl mt-2 md:mt-4" />
+      </div>
       <div className="w-full flex flex-unwrap hidden-scrollbar overflow-x-scroll items-center gap-4 pb-8">
         {armadaDatas.datas.map((data, index) => (
           <div

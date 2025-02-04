@@ -14,9 +14,12 @@ const ContactSection = () => {
         />
       </div>
       <div className="lg:w-1/2 w-full flex flex-col items-start justify-center gap-y-4 md:gap-y-12 py-20">
-        <h1 className="text-3xl md:text-5xl font-bold underline text-primary">
-          Jalan Jalan Murah?
-        </h1>
+        <div className="flex flex-col items-start justify-start">
+          <h2 className="text-2xl md:text-4xl font-bold text-primary">
+            Jalan Jalan Murah?
+          </h2>
+          <hr className="w-1/2 h-2 bg-tertiary rounded-xl mt-2 md:mt-4" />
+        </div>
         <p className="font-medium text-sm">
           Tentu bisa, kapan lagi bisa jalan-jalan dengan ongkos minim namun
           fasilitas memadai. Pesan sekarang juga melalui kontak di bawah ini!
